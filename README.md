@@ -94,4 +94,6 @@ summary(lm(PETR4_RET~BVSP_RET))
 beta2 <- cov(PETR4_RET, BVSP_RET)/var(BVSP_RET)
 beta2
 
+# II)
+
 # Analysis: Firstly, based on the basic statistics, we can say that the Petrobras stock has already generated greater returns, both positive and negative, than the Ibovespa index, with its maximum and minimum values being higher in module. The variance of the stock's returns are higher than the index variance, leading to the belief that, given greater volatility, the stock brings more risk to the shareholder. Another calculation that reinforces such a risk analysis is the asymmetry observed in the histogram of returns and in the distances between means and medians, such distance its bigger for PETR4 returns. When comparing the 2 assets returns, a important statistics is the correlation. With a positive correlation of 0.8, we can say that this 2 assets are positively correlated indicating a directly proportional relationship between the returns. To complete the risk and return analysis I calculated the beta of PETR4. With a market beta of 1.7793, we can say that in the last 10 years the Petrobras stock has a higher risk than the market index (so if the index increase 1%, the stock price will increase 1.7793%), but if well managed it can generate higher returns than the benchmark.
